@@ -14,4 +14,13 @@ function updateDisplay() {
 
 }
 
+const keys = document.querySelector('.calculatorKeys');
+
+keys.addEventListener('click', (event) => {
+    const { target } = event;
+    if(!target.matches('button')){
+        return
+    }
+})
+
 updateDisplay();
